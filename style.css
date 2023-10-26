@@ -3,6 +3,26 @@
     height:60px;
     text-align:left;
 }
+.heading button{
+    float:right;
+    border:1px solid white;
+}
+.heading h3{
+    display: inline;
+}
 .bigImg{
     width:100%;
+}
+.modal-dialog{
+    width:90%;
+}
+.instructionImage{
+    display: inline-block;
+    width:45%;
+}
+video{
+    background:url("game_console.png");
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
 }

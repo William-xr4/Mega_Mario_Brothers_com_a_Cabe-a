@@ -25,15 +25,34 @@
       <br>
       <div class="btn btn-info heading">
         <h3>I.A. Mega Mario Brothers-I.A.M.M.B.</h3>
+        <button class="btn btn-warning" data-toggle="modal" data-target="#myModal">Instruções</button>
       </div>
       <img src="mario.jpg" class="bigImg">
       <br>
       <br>
-      <button class="btn btn-success" onclick="Start_Game()" id="Start">Jogar</button>
+      <button class="btn btn-success" onclick="startGame()" id="Start">Jogar</button>
       <br>
       <h3 id="Status" class="btn btn-danger"></h3>
       <br>
       <br>
+      <div id="canvas"></div>
+      <div id="console"></div>
+      <h4 id="creditos">Código fonte: <a href="https://github.com/linuk">Linuk</a>||Créditos:Nintendo</h4>
+      <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button class="close" data-dismiss="modal">&times;</button>
+              <h4>Instruções:</h4>
+            </div>
+            <div class="modal-body">
+              <img src="jump.png", class="img-responsive instructionImage">
+              <img src="right.png", class="img-responsive instructionImage">
+              <img src="left.png", class="img-responsive instructionImage">
+            </div>
+          </div>
+        </div>
+      </div>
     </center>
   </body>
 </html>
